@@ -9,6 +9,7 @@ body {
 .container{
     display:flex;
     flex-direction: column;
+    margin: 0;
 }
 
 .titulo{
@@ -63,11 +64,34 @@ p{
     margin: 200px;
 }
 
-.container .card{
+
+footer{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.container nav{
+    color: rgb(228, 228, 176);
     display: flex;
+    position: sticky;
+    top :0;
+    width: 100%;
+    margin:0;
+}
+
+.container .graficos{
+    margin:90px;
+    display: flex;
+    flex-direction: column;
+    gap:80px;
+}
+
+.container .graficos .card{
     width: 23rem;
 }
 
-
-
-
+.container .graficos .carousel-inner h5, p{
+    font-size: 30px;
+    color:white;
+    -webkit-text-stroke: 1.5px black;
+}
