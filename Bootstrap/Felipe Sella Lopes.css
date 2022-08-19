@@ -9,7 +9,8 @@ body {
 .container{
     display:flex;
     flex-direction: column;
-    margin: 0;
+    width: 100%;
+    justify-content: center;
 }
 
 .titulo{
@@ -35,13 +36,24 @@ body {
     filter: drop-shadow(5px 5px 5px #222);
 }
 
-p{
+
+
+.container .texto h1{
     text-align: center;
-    font-family: 'Space Mono', monospace;
-    font-size: 140%;
+    font-family: 'MedievalSharp', cursive;
+    font-size: 50px;
     font-weight: bolder;
-    color: black;
+    color: white;
+    -webkit-text-stroke: 1px black;
 }
+
+.container .texto p {
+    font-size: 30px;
+    color:white;
+    -webkit-text-stroke: 1.5px black;
+}
+
+
 
 .container .container-buttons{
     display: flex;
@@ -71,27 +83,30 @@ footer{
 }
 
 .container nav{
-    color: rgb(228, 228, 176);
     display: flex;
     position: sticky;
     top :0;
     width: 100%;
-    margin:0;
+    z-index: 1;
 }
 
-.container .graficos{
+.container .graficos .col{
     margin:90px;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     gap:80px;
 }
 
 .container .graficos .card{
-    width: 23rem;
+    width: 25%;
+    
 }
 
-.container .graficos .carousel-inner h5, p{
-    font-size: 30px;
-    color:white;
-    -webkit-text-stroke: 1.5px black;
+.container .navsecundaria{
+    background-color: white;
+    border-radius: 25;
+    position: sticky;
 }
+
+
+
