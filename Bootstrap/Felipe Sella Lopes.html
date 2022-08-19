@@ -29,12 +29,9 @@
                 </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Buscar
+                    Ajuda
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Sobre os Templários</a></li>
-                    <li><a class="dropdown-item" href="#">Hugo de Payens</a></li>
-                    <li><hr class="dropdown-divider"></li>
                     <li><a class="dropdown-item" href="#">Ajuda contra Heresias?</a></li>
                   </ul>
                 </li>
@@ -49,19 +46,38 @@
             </div>
           </div>
         </nav>
+
+        <!--barra de navegação secundária-->
+        <div class="navsecundaria">
+          <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Sobre os Templários</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Hugo de Payens</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Converte-se</a>
+            </li>
+          </ul>
+        </div>
+       
+
         <div class="titulo">
             <img src="https://imagepng.org/wp-content/uploads/2017/11/cruz-de-malta-vasco.png" alt="Cruz de Malta">
             <h1 class="display-1">Templários, cavaleiros em nome de Cristo</h1>
             <img src="https://espadasmedias.com.ar/wp-content/uploads/sites/5/2017/05/Espada-2.png" alt="Espada Templária">
         </div>
     
-        <div class="texto">
-            <p>A Ordem dos Pobres Cavaleiros de Jesus Cristo e do Templo de Salomão, popularmente conhecida como Ordem dos Templários, foi uma ordem militar de cavaleiros da Igreja Católica. Fundada por Hugo de Payens depois da primeira cruzada, se estabelecendo no Templo de Salomão em Jerusalém.</p>
-            <br>
-            <br>
-            <p>A Ordem dos Templários foi fundada com o objetivo de proteger os peregrinos que rumavam para Jerusalém pelo caminho entre Jafa e Cesareia, pois nesse caminho era comum de ladões abordarem os peregrinos. Tinham como missão também a proteção da Terra Santa contra os ataques muçulmanos.</p>
-            <p>Seu símbolo era a Cruz de Malta, que possuía oito pontas, reopresentando os opito cavaleiros mais inportantes da Ordem, e seu centro represe ntando seu fundador Hugo de Payens.
-            </p>
+        <div class="texto" id="Titulo1">
+          <h1>Sobre os Templários</h1>
+          <br>
+          <p>A Ordem dos Pobres Cavaleiros de Jesus Cristo e do Templo de Salomão, popularmente conhecida como Ordem dos Templários, foi uma ordem militar de cavaleiros da Igreja Católica. Fundada por Hugo de Payens depois da primeira cruzada, se estabelecendo no Templo de Salomão em Jerusalém.</p>
+          <br>
+          <br>
+          <p>A Ordem dos Templários foi fundada com o objetivo de proteger os peregrinos que rumavam para Jerusalém pelo caminho entre Jafa e Cesareia, pois nesse caminho era comum de ladões abordarem os peregrinos. Tinham como missão também a proteção da Terra Santa contra os ataques muçulmanos.</p>
+          <p>Seu símbolo era a Cruz de Malta, que possuía oito pontas, reopresentando os opito cavaleiros mais inportantes da Ordem, e seu centro represe ntando seu fundador Hugo de Payens.
+          </p>
         </div>    
 
         <!--botão de link-->
@@ -70,60 +86,23 @@
             <a class="btn btn-danger" href="https://pt.wikipedia.org/wiki/Ordem_dos_Templ%C3%A1rios" role="button">Mais sobre os Templários</a>
         </div>
 
-        <!--card e carrossel-->
+        <!--card-->
 
         <div class="graficos">
-
-          <!--card-->
-          <div class="card">
-            <img src="https://static.wixstatic.com/media/a27d24_60a963759a434ce28d3dd38e9e18b8d5~mv2.jpeg/v1/fit/w_740,h_960,al_c,q_80/file.jpg"class="card-img-top" alt="Hugo de Payens">
-            <div class="card-body">
-              <h5 class="card-title"></h5>
-              <p class="card-text">Hugo de Payens, oriundo da região de Champagne, na França. O primeiro e mais importante templário, o centro da cruz de oito pontas.</p>
-              <a href="https://pt.wikipedia.org/wiki/Hugo_de_Payens" class="btn btn-danger">Sobre Hugo de Payens</a>
+          <div class="row">
+            <div class="col">
+              <div class="card">
+                <img src="https://static.wixstatic.com/media/a27d24_60a963759a434ce28d3dd38e9e18b8d5~mv2.jpeg/v1/fit/w_740,h_960,al_c,q_80/file.jpg"class="card-img-top" alt="Hugo de Payens">
+                <div class="card-body">
+                  <h5 class="card-title">Hugo de Payens</h5>
+                  <p class="card-text">Hugo de Payens, oriundo da região de Champagne, na França. O primeiro e mais importante templário, o centro da cruz de oito pontas.</p>
+                  <a href="https://pt.wikipedia.org/wiki/Hugo_de_Payens" class="btn btn-danger">Sobre Hugo de Payens</a>
+                </div>
+              </div>
             </div>
           </div>
-          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="https://aventurasnahistoria.uol.com.br/media/_versions/templariosnnnda_widelg.jpg" class="d-block w-100" alt="avanco">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Templários em Avanço</h5>
-                  <p>Templários atacando em seus cavalos</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://mundovastomundo.com.br/wp-content/uploads/2019/08/Mesquita-Al-Aqsa1-e1565993278416.jpg" class="d-block w-100" alt="mesquita">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Mesquita de al-aqsa</h5>
-                  <p>Mesquita que se encontra sobre as ruínas do Templo de Salomão em Jerusalém.</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://www.esquadroecompasso.pt/wp-content/uploads/2018/11/sr050-templer-ring-min.jpg" class="d-block w-100" alt="anel">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Anel com selo Templário</h5>
-                  <p>Anel com o selo  da Ordem dos Templários.</p>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-
         </div>
+
         
         <div class="conversao">
             <form>
